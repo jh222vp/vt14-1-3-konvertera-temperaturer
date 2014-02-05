@@ -5,9 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Konvertera temperatur</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Model/style.css" rel="stylesheet" />
 </head>
 <body>
+    <h1>Konvertera Temperaturer</h1>
     <form id="form1" runat="server">
     <div>
         <asp:Literal ID="Literal1" Text="Starttemperatur" runat="server"></asp:Literal>
@@ -29,7 +30,7 @@
             <asp:CompareValidator ID="CompareValidator3" ControlToValidate="tempStep" runat="server" ErrorMessage="Bara siffror!" Type="Integer" Operator="DataTypeCheck"></asp:CompareValidator>
         </div>
         <div>
-            <asp:RadioButton Text="Celcius till Fahrenheit" ID="CelFa" runat="server" GroupName="1" />
+            <asp:RadioButton Text="Celcius till Fahrenheit" checked="true" ID="CelFa" runat="server" GroupName="1" />
             <asp:RadioButton Text="Fahrenheit till Celcius" ID="FarCe" runat="server" GroupName="1" />
         </div>
         <div id="Convert">

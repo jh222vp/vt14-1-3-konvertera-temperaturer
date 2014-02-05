@@ -59,7 +59,7 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="error.html" />
-    <Content Include="style.css" />
+    <Content Include="Model\style.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

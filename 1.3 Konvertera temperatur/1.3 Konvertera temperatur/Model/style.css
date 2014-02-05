@@ -1,0 +1,10 @@
+﻿body {
+    background-color:lightblue;
+}
+#TempTable {
+border:1px solid;
+max-height: 100px;
+width: 60px;
+background-color:orange;
+margin-left:45%;
+}
